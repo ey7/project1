@@ -6,3 +6,33 @@ body {
 	padding: 0;
 	background-color: #f2f2f2;	
 }
+/*-------------------grid------------------------------*/
+.grid 
+	{
+	display: grid;
+	grid-template-columns: repeat(autofit, minmax(200px,1fr));
+	grid-gap: 3px;
+	grid-template-areas:
+	"nav"
+	"slider"
+	"about"
+	"band"
+	"footer";
+}
+/*-------------------nav------------------------------*/
+nav {
+
+	grid-area: nav;
+}
+
+
+/*-------------------slider------------------------------*/
+	.slider {
+	
+	grid-area: slider; 
+}
+
+.carousel-item{
+	max-height: 500px;	
+}
+
