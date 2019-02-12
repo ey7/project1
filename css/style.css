@@ -24,8 +24,6 @@ nav {
 
 	grid-area: nav;
 }
-
-
 /*-------------------slider------------------------------*/
 	.slider {
 	
@@ -35,4 +33,12 @@ nav {
 .carousel-item{
 	max-height: 500px;	
 }
-
+/*-------------------about------------------------------*/
+.about {
+	background-color: #f2f2f2;
+	margin-top: 20px;
+	padding: 20px;
+	border: 1px solid #cdcdcd;
+	border-radius: 4px;
+	grid-area: about;
+}
