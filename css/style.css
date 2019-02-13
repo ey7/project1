@@ -49,5 +49,28 @@ nav {
 	margin-left: 5px;
 	 margin: 20px 0;
 	grid-area: band;
-	 
+}
+/*-------------------footer------------------------------*/
+.footer {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	min-height: 70px;
+	z-index: 1;
+	grid-area: footer;
+}
+.footer-logo {
+	font-size: 16px;
+	font-weight: 900;
+	color: #fafafa;
+	text-transform: uppercase;
+	align-self: center;}
+
+.address {
+	
+		color: #fafafa;
+		}
+#social a {
+ color: #fff;
+padding-left: 20px;
 }
