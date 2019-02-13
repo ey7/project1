@@ -42,3 +42,12 @@ nav {
 	border-radius: 4px;
 	grid-area: about;
 }
+/*-------------------band------------------------------*/
+.band{
+	 display: flex;
+	justify-content: space-around;
+	margin-left: 5px;
+	 margin: 20px 0;
+	grid-area: band;
+	 
+}
