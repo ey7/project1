@@ -64,13 +64,35 @@ nav {
 	font-weight: 900;
 	color: #fafafa;
 	text-transform: uppercase;
-	align-self: center;}
+	align-self: center;
+}
 
 .address {
-	
-		color: #fafafa;
+	color: #fafafa;
 		}
 #social a {
  color: #fff;
 padding-left: 20px;
+}
+/*-------------------media queries------desktop------------------------*/
+@media screen and (min-width: 992px) {
+
+/*-------------------grid------------------------------*/
+.grid {
+
+	display: grid;
+	grid-template-columns: 50px 1fr 1fr 50px;
+	grid-template-areas: 
+	" nav nav nav nav "
+	". slider slider .  "
+	". about about . "
+	". band band . "
+	"footer footer footer footer "
+	;
+}
+/*-------------------footer------------------------------*/
+.footer-logo {
+	font-size: 120%;	
+}
+
 }
