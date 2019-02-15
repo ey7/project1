@@ -33,6 +33,15 @@ nav {
 .carousel-item{
 	max-height: 500px;	
 }
+.carousel-caption {
+  width: 100%;
+  height: 100%;
+  left: 0;
+  right: 0;
+bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+}
+
 /*-------------------about------------------------------*/
 .about {
 	background-color: #f2f2f2;
@@ -52,7 +61,6 @@ nav {
 }
 .card{
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-	
 }
 
 /*-------------------footer------------------------------*/
