@@ -44,7 +44,7 @@ bottom: 0;
 .carousel-btn-info {
     position: absolute;
     left: 50%;
-    bottom: 20%;
+    bottom: 10%;
     transform: translate(-50%,-50%);
     -ms-transform: translate(-50%,-50%);
 }
