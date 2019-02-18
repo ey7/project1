@@ -1,0 +1,149 @@
+* {
+	font-family:'Exo 2', sans-serif;
+	font-size: 16px;
+	text-decoration: none;
+	
+	
+}
+h1 { font-size: 20px;
+	font-weight: 900;
+ }
+
+body {
+	margin: 0 0 0 1px;
+	padding: 0;
+	background-color: #f2f2f2;
+}
+
+
+/*-------------------grid------------------------------*/
+.grid {
+	
+	display: grid;
+	grid-template-columns: repeat(autofit, minmax(200px,1fr));
+	grid-gap: 3px;
+	grid-template-areas: 
+	"nav"
+	"about"
+	"contact"
+	"footer";
+	
+}
+
+
+/*-------------------nav------------------------------*/
+nav {
+	
+	grid-area: nav;
+}
+
+
+/*-------------------about------------------------------*/
+.about {
+	background-color: #fff;
+	margin: 20px 0;
+	padding: 20px;
+	border: 1px solid #cdcdcd;
+	border-radius: 4px;
+	grid-area: about;
+}
+
+
+/*-------------------contact------------------------------*/
+.contact{
+    grid-area: contact;
+}
+
+#contact-button {
+	margin: 10px 0;
+	
+}
+
+/*-------------------footer------------------------------*/
+.footer {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	min-height: 70px;
+	z-index: 1;
+	
+	grid-area: footer;
+}
+.footer-logo {
+	font-size: 16px;
+	font-weight: 900;
+	color: #fff;
+	text-transform: uppercase;
+	align-self: center;}
+
+.address {
+	
+		color: #fff;
+		}
+#social a {
+ color: #fff;
+padding-left: 20px;
+}
+	
+
+/*-------------------media queries------tablet------------------------*/
+
+
+@media screen and (min-width: 736px) {
+	
+.grid {
+
+	display: grid;
+	grid-template-columns: 1 fr 3fr 1fr;
+	grid-template-areas: 
+	
+	"nav nav nav"
+	". about ."
+	". contact ."
+	"footer footer footer";
+}
+
+
+.about {
+	margin-top: 20px;
+	}
+	/*---footer-----*/
+	
+}
+/*-------------------media queries------desktop------------------------*/
+
+@media screen and (min-width: 992px) {
+
+/*-------------------grid------------------------------*/
+.grid {
+
+	display: grid;
+	grid-template-columns:  1fr 2fr 1fr ;
+	grid-template-areas: 
+	
+	"  nav nav nav  "
+	" . about .  "
+	" .  contact .  "
+	" footer footer footer "
+
+	;
+}
+/*-------------------about------------------------------*/
+.about {
+    margin-top: 40px;
+    margin-bottom: 40px;
+	}
+
+/*-------------------contact------------------------------*/
+    #form {
+        margin: 20px 0;
+    }
+/*-------------------footer------------------------------*/
+
+.footer-logo {
+	font-size: 20px;	
+}
+
+
+	
+
