@@ -43,8 +43,10 @@ bottom: 0;
 }
 .carousel-btn-info {
     position: absolute;
-    margin: auto;
+    left: 50%;
     bottom: 20%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
 }
 
 /*-------------------about------------------------------*/
