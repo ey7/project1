@@ -41,6 +41,11 @@ nav {
 bottom: 0;
   background-color: rgba(0,0,0,0.5);
 }
+.carousel-btn-info {
+    position: absolute;
+    margin: auto;
+    bottom: 20%;
+}
 
 /*-------------------about------------------------------*/
 .about {
