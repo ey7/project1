@@ -21,15 +21,12 @@ body {
 }
 /*-------------------nav------------------------------*/
 nav {
-
 	grid-area: nav;
 }
 /*-------------------slider------------------------------*/
 	.slider {
-	
 	grid-area: slider; 
 }
-
 .carousel-item{
 	max-height: 500px;	
 }
@@ -38,7 +35,7 @@ nav {
   height: 100%;
   left: 0;
   right: 0;
-bottom: 0;
+	bottom: 0;
   background-color: rgba(0,0,0,0.5);
 }
 .carousel-btn-info {
@@ -48,7 +45,6 @@ bottom: 0;
     transform: translate(-50%,-50%);
     -ms-transform: translate(-50%,-50%);
 }
-
 /*-------------------about------------------------------*/
 .about {
 	background-color: #f2f2f2;
@@ -59,17 +55,16 @@ bottom: 0;
 	grid-area: about;
 }
 /*-------------------band------------------------------*/
-.band{
+.band {
 	 display: flex;
 	justify-content: space-around;
 	margin-left: 5px;
 	 margin: 20px 0;
 	grid-area: band;
 }
-.card{
+.card {
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
-
 /*-------------------footer------------------------------*/
 .footer {
 	display: flex;
@@ -86,20 +81,17 @@ bottom: 0;
 	text-transform: uppercase;
 	align-self: center;
 }
-
 .address {
 	color: #fafafa;
-		}
+}
 #social a {
  color: #fff;
 padding-left: 20px;
 }
 /*-------------------media queries------desktop------------------------*/
 @media screen and (min-width: 992px) {
-
 /*-------------------grid------------------------------*/
 .grid {
-
 	display: grid;
 	grid-template-columns: 50px 1fr 1fr 50px;
 	grid-template-areas: 
@@ -114,5 +106,4 @@ padding-left: 20px;
 .footer-logo {
 	font-size: 120%;	
 }
-
 }
