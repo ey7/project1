@@ -1,17 +1,14 @@
-* {
+h1 { font-size: 20px;
+	font-weight: 900;
+}
+body {
 	font-family:'Exo 2', sans-serif;
 	font-size: 16px;
 	text-decoration: none;
-}
-h1 { font-size: 20px;
-	font-weight: 900;
- }
-body {
 	margin: 0 0 0 1px;
 	padding: 0;
 	background-color: #f2f2f2;
 }
-
 /*-------------------grid------------------------------*/
 .grid {
 	display: grid;
@@ -23,13 +20,10 @@ body {
 	"contact"
 	"footer";
 }
-
 /*-------------------nav------------------------------*/
 nav {
-	
 	grid-area: nav;
 }
-
 /*-------------------about------------------------------*/
 .about {
 	background-color: #fff;
@@ -39,7 +33,6 @@ nav {
 	border-radius: 4px;
 	grid-area: about;
 }
-
 /*-------------------contact------------------------------*/
 .contact{
     grid-area: contact;
@@ -47,7 +40,6 @@ nav {
 #contact-button {
 	margin: 10px 0;	
 }
-
 /*-------------------footer------------------------------*/
 .footer {
 	display: flex;
@@ -71,10 +63,8 @@ nav {
  color: #fff;
 padding-left: 20px;
 }
-	
 /*-------------------media queries------tablet------------------------*/
 @media screen and (min-width: 736px) {
-	
 .grid {
     display: grid;
 	grid-template-columns: 1 fr 3fr 1fr;
@@ -89,9 +79,7 @@ padding-left: 20px;
 	}
 }
 /*-------------------media queries------desktop------------------------*/
-
 @media screen and (min-width: 992px) {
-
 /*-------------------grid------------------------------*/
 .grid {
 	display: grid;
@@ -107,13 +95,11 @@ padding-left: 20px;
 .about {
     margin-top: 40px;
     margin-bottom: 20px;
-    }
-    
+}
 /*-------------------contact------------------------------*/
-    #form {
+#form {
         margin: 20px 0;
-    }
-
+}
 /*-------------------footer------------------------------*/
 .footer-logo {
 	font-size: 20px;	
