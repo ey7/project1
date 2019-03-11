@@ -57,7 +57,7 @@
 <!-----------------contact form------------------- ------------->
       
       <div class="contact text-center">
-          <form id="form" name="contact" method="POST" data-netlify="true">
+          <form id="form" name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true">
                 <div class="contact-form-input">
                     <input class="form-control" id="name" name="name" placeholder="Name" aria-label="name input" required>
                 </div>
@@ -65,6 +65,7 @@
                         <input class="form-control" id="contactEmail" type="email" name="email" placeholder="Email" aria-label="email input" required>
                     </div>
                         <textarea name="clientContact" class="contact-form-input form-control" id="clientContact" placeholder="Message" rows="7" aria-label="enter your message to us" required></textarea>
+                        <div data-netlify-recaptcha="true"></div>
                           <button type="submit" id="contact-button" class=" btn btn-primary">Submit</button>
           </form>
       </div> <!-----/contact end-->
