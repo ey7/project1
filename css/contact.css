@@ -40,6 +40,9 @@ nav {
 #contact-button {
 	margin: 10px 0;	
 }
+.recaptcha {
+	margin-top:20px;
+}
 /*-------------------footer------------------------------*/
 .footer {
 	display: flex;
