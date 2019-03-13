@@ -60,16 +60,16 @@ The website consists of five pages, including a homepage, three product pages an
 
 - Once deployed I realised that the images were far too large and were taking too long to load on the pages.
 - The contact form was not working correctly and needed to be updated with the netlify code for activation.
-- I noticed on further testing that there was a margin on the right hand side of the page with a horizontal scroll on the bottom of the page.
-- At certain sizes, as the browser window was resized the cards did not line up exactly with each other.
+- I noticed on further testing that there was a margin on the right hand side of the page, which caused a horizontal scrollbar to appear on the bottom of the page.
+- At certain viewport sizes, as the browser window was resized, the height of the cards did not line up exactly with each other.
 - There was no margin between the top of the about section.
 
 ## Investigation into issues
 
 - I used Photoshop to optimise and compress the images down to a small size, and the page load speed was much improved.
-- I added the netlify code as outlined in the docs to get the form working correctly. I alos added a netlify recaptcha to combat spam. I tested the form and the messages were being received to my netlify dashboard.
-- To remove the horizonatal scroll I used overflow-x hidden. This worked on desktop but on further testing on mobile the margin was still there. It is something minimal I feel as I showed it to family members and they did not notice it.
-- I tried to resolve the error regarding the cards but was unable. I feel this is a Bootstrap issue, although this is something that does not really affect the useability of the site as the cards lined up perfectly on mobile and laptop breakpoints.
+- I added the netlify code as outlined in the docs to get the form working correctly. I also added a netlify recaptcha to combat spam. I tested the form and the messages were being received to my netlify dashboard.
+- I realised that a bootstrap row on the cards section was pushing out the right margin and causing the horizontal scrollbar on the bottom. I first used overflow-x hidden to remove the scrollbar, but this did not work on mobile viewport sizes, the margin was still there. I then removed the overflow-x hidden css and added 15px of margin to the right side of the cards section and this resolved the issue.
+- For the resizing height issue with the cards, I added a height of 100% which solved the issue.
 - I added a margin top to the about section to improve visual impact.
 
 ## Image credits
