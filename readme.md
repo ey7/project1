@@ -5,7 +5,7 @@
 
  ## Design Planning
 
-A planning document for the website can be found here which details the planning of the UX and UI. I used Figma here for the intial website design of the homepage.
+A planning document for the website can be found [here](planning.md) here which details the planning of the UX and UI. I used Figma [here](https://www.figma.com/file/baVcQW3gP3tkihBhWwWeizus/webDraftProject1?node-id=0%3A1) for the intial website design of the homepage.
 
   - The website advertises a retail shop, Victoire Market, that sells Afro-Caribbean products (food, hair and beauty).
   - The aim is for an attractive, simple easy to use website that advertises the products available in distinct categories.
