@@ -4,8 +4,7 @@ body {
 	text-decoration: none;
 	margin: 0 0 0 1px;
 	padding: 0;
-	background-color: #f2f2f2;
-	overflow-x: hidden;
+	background-color: #f2f2f2;	
 }
 /*-------------------grid------------------------------*/
 .grid 
@@ -60,6 +59,7 @@ nav {
 	justify-content: space-around;
 	margin: 20px 0 0 0;
 	grid-area: band;
+	margin-right: 15px;
 }
 .card {
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
