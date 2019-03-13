@@ -74,9 +74,13 @@ nav {
 .card-body {
 	display: flex;
 	flex-direction: column;
+	justify-content: space-between;
+}
+.card-text {
+	align-self: flex-start;
 }
 .card-body a {
-	margin-top: auto;
+	align-self: flex-start;
 }
 /*-------------------footer------------------------------*/
 .footer {
