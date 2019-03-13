@@ -32,8 +32,9 @@ The website consists of five pages, including a homepage, three product pages an
 - CSS Grid and Flexbox for website layout and design.
 - Bootstrap for modern styling with responsive navigation, carousel slider and product cards. 
 - Google fonts for fast loading on Exo 2 font.
-- Font Awesome for social media icons
+- Font Awesome for social media icons.
 - Jquery and Popper Js for Bootstrap functionality.
+- Netlify forms for a working form submission with user input validation.
   
 ## Resources
 
@@ -44,13 +45,37 @@ The website consists of five pages, including a homepage, three product pages an
   
 ## Testing
 
+- The website was tested using developer tools throughout the project on multiple browsers - Chrome, Mozilla & Opera etc.
+- All links on all pages were tested to ensure everything was working correctly.
+- All elements of the form including all input fields and the submit button were tested.
+- All breakpoinnts were tested for different screen sizes.
+
 ## Deployment
+
+- After some research I decided to use Netlify to deploy the site, which allows for easy integrated deployment from my github account. I purchased a custom domain for use with the site, victoiremarket.com.
+- Netlify also provides some nice features such as free HTTPS, as well as a handy form, easy to implement, that will allow your site to receive up to 100 free submissions a month from the website, as well as a recaptcha for the form.
+- I tested the website on personal devices such as laptop and mobile phone, in both potrait and landscape orientations.
 
 ## Issues
 
-## Resolved issues
+- Once deployed I realised that the images were far too large and were taking too long to load on the pages.
+- The contact form was not working correctly and needed to be updated with the netlify code for activation.
+- I noticed on further testing that there was a margin on the right hand side of the page with a horizontal scroll on the bottom of the page.
+- At certain sizes, as the browser window was resized the cards did not line up exactly with each other.
+- There was no margin between the top of the about section.
+
+## Investigation into issues
+
+- I used Photoshop to optimise and compress the images down to a small size, and the page load speed was much improved.
+- I added the netlify code as outlined in the docs to get the form working correctly. I alos added a netlify recaptcha to combat spam. I tested the form and the messages were being received to my netlify dashboard.
+- To remove the horizonatal scroll I used overflow-x hidden. This worked on desktop but on further testing on mobile the margin was still there. It is something minimal I feel as I showed it to family members and they did not notice it.
+- I tried to resolve the error regarding the cards but was unable. I feel this is a Bootstrap issue, although this is something that does not really affect the useability of the site as the cards lined up perfectly on mobile and laptop breakpoints.
+- I added a margin top to the about section to improve visual impact.
 
 ## Image credits
+
+- Carousel images (x3) courtesy of Pexels.com.
+- All other images were taken of store products using my mobile phone camera.
 
 ## Acknowledgements
 
