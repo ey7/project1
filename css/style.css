@@ -77,7 +77,7 @@ nav {
 	justify-content: space-between;
 }
 .card-text {
-	align-self: flex-start;
+	justify-self: flex-start;
 }
 .card-body a {
 	align-self: flex-start;
