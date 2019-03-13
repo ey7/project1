@@ -60,6 +60,7 @@ nav {
 	margin: 20px 0 0 0;
 	grid-area: band;
 	margin-right: 15px;
+	margin-left: 15px;
 }
 .card {
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
