@@ -76,6 +76,7 @@ nav {
 	flex-direction: column;
 	justify-content: space-between;
 }
+
 .card-text {
 	justify-self: flex-start;
 }
