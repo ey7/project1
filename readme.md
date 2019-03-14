@@ -42,6 +42,7 @@ The website consists of five pages, including a homepage, three product pages an
 - [MDN Mozilla Docs](https://developer.mozilla.org/en-US/)
 - [W3 Schools](https://www.w3schools.com/)
 - [CSS Tricks](https://css-tricks.com/)
+- [Responsinator](https://www.responsinator.com/)
 - Google
   
 ## Testing
@@ -69,6 +70,8 @@ The website consists of five pages, including a homepage, three product pages an
 5. There was no margin between the top of the about section.
 6. There was no margin on the contact form at mobile view and the content was squashed up against the side of the browser window.
 7. On medium screen sizes the span text in the nav bar was making the nav bar look cluttered.
+8. On Ipad potrait size, the footer was not on the bottom of the contact page, but was floating in the middle underneath the form.
+9. I also realised that I had no favicon for the website.
 
 ## Investigation and resolution of issues
 
@@ -77,16 +80,21 @@ The website consists of five pages, including a homepage, three product pages an
 3. I realised that a bootstrap row on the cards section was pushing out the right margin and causing the horizontal scrollbar on the bottom. I first used overflow-x hidden to remove the scrollbar, but this did not work on mobile viewport sizes, the margin was still there. I then removed the overflow-x hidden css and added 15px of margin to the right side of the cards section and this resolved the issue.
 4. For the resizing height issue with the cards, I added a height of 100% which solved the issue. There was then an issue with the button/link on the bottom of the cards floating above the ends of the card, which did not give a nice visual effect. I experimented with a few methods to fix the issue, and finally used flexbox to align the buttons to the bottom of the cards. There is a remaining visual bug where the card text at certain viewports is not fully aligned, but this is not noticeable on mobile or desktop view. 
 5. I added a margin top to the about section to improve visual impact.
-6. I added a margin left and right on the contact page at mobile view to give the contact form some space.
+6. I added a margin left and right on the contact page at mobile view to give the contact form some space
 7. I changed the bootstrap class for the navbar so that the span title text would only appear on large screens, and would not be visible on medium screen sizes. This fixed the visual clutter issue.
+8. I added code that was modified from a [css codepen](https://codepen.io/cbracco/pen/zekgx) to push the footer down on the contact page for Ipad potrait screen size.
+9. I added a favicon to all the web pages.
 
 ## Image credits
 
 - Carousel images (x3) courtesy of [pexels](https://www.pexels.com/).
 - All other images were taken of store products using my mobile phone camera.
+- The favicon for the site was downloaded for free from [iconscout](https://iconscout.com/icon/v-characters-character-alphabet-letter).
 
 ## Acknowledgements
 
-- I had an issue with the css placement of the button in the centre of the carousel. I found the following [W3 schools link](https://www.w3schools.com/Css/css3_2dtransforms.asp) very informative to help me fix this issue.
+- I had an issue with the css placement of the button in the centre of the carousel on the home page. I found the following [W3 schools link](https://www.w3schools.com/Css/css3_2dtransforms.asp) very informative to help me fix this issue.
 
 - The following [link](https://www.w3schools.com/howto/howto_css_overlay.asp) was very helpful in understanding how to implement the overlay on the carousel images to give it the dark background effect.
+  
+- To push the footer down on the contact page with CSS I modified the code from the following [css codepen](https://codepen.io/cbracco/pen/zekgx).
