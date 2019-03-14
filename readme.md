@@ -5,7 +5,7 @@ Build a website for the Code Institute User Centric module. I have chosen to bui
 
  ## Design Planning
 
-A planning document for the website can be found [here](planning.md) which details the planning of the UX and UI. I used [Figma](https://www.figma.com/file/baVcQW3gP3tkihBhWwWeizus/webDraftProject1?node-id=0%3A1) for the intial website design of the homepage.
+A planning document for the website can be found [here](planning.md) which details the planning of the UX and UI. I used [Figma link to intial design](https://www.figma.com/file/baVcQW3gP3tkihBhWwWeizus/webDraftProject1?node-id=0%3A1) for the intial website design of the homepage.
 
   - The website advertises a retail shop, Victoire Market, that sells Afro-Caribbean products (food, hair and beauty).
   - The aim is for an attractive, simple, easy to use website that advertises the products available in distinct categories.
@@ -34,7 +34,7 @@ The website consists of five pages, including a homepage, three product pages an
 - [Google fonts](https://fonts.google.com/) for fast loading on Exo 2 font.
 - [Font Awesome](https://fontawesome.com/) for social media icons.
 - [Jquery](https://jquery.com/) and [Popper Js](https://popper.js.org/) for Bootstrap functionality.
-- [Netlify forms](https://www.netlify.com/docs/form-handling/) for a working form submission with user input validation.
+- [Netlify forms](https://www.netlify.com/docs/form-handling/) for a working form submission with user input validation and recaptcha.
   
 ## Resources
 
@@ -53,7 +53,7 @@ The website consists of five pages, including a homepage, three product pages an
 
 ## Deployment
 
-- After some research I decided to use [Netlify](https://www.netlify.com/) to deploy the site, which allows for free, easy integrated and continuos deployment from my github account. I purchased a custom domain for use with the site, victoiremarket.com.
+- After some research I decided to use [Netlify](https://www.netlify.com/) to deploy the site, which allows for free, easy integrated and continuous deployment from my github account. I purchased a custom domain for use with the site, victoiremarket.com.
 - Netlify also provides some nice free features such as HTTPS, as well as a handy form, easy to implement, that will allow your site to receive up to 100 free submissions a month from the website, as well as a recaptcha for the form.
 - I tested the website on personal devices such as laptop and mobile phone, in both potrait and landscape orientations.
 - The website was put through the [HTML5](https://validator.w3.org/) and [CSS Validator](https://jigsaw.w3.org/css-validator/) and did not yield any errors.
@@ -68,6 +68,7 @@ The website consists of five pages, including a homepage, three product pages an
 4. At certain viewport sizes, as the browser window was resized, the height of the cards did not line up exactly with each other.
 5. There was no margin between the top of the about section.
 6. There was no margin on the contact form at mobile view and the content was squashed up against the side of the browser window.
+7. On medium screen sizes the span text in the nav bar was making the nav bar look cluttered.
 
 ## Investigation and resolution of issues
 
@@ -76,7 +77,8 @@ The website consists of five pages, including a homepage, three product pages an
 3. I realised that a bootstrap row on the cards section was pushing out the right margin and causing the horizontal scrollbar on the bottom. I first used overflow-x hidden to remove the scrollbar, but this did not work on mobile viewport sizes, the margin was still there. I then removed the overflow-x hidden css and added 15px of margin to the right side of the cards section and this resolved the issue.
 4. For the resizing height issue with the cards, I added a height of 100% which solved the issue. There was then an issue with the button/link on the bottom of the cards floating above the ends of the card, which did not give a nice visual effect. I experimented with a few methods to fix the issue, and finally used flexbox to align the buttons to the bottom of the cards. There is a remaining visual bug where the card text at certain viewports is not fully aligned, but this is not noticeable on mobile or desktop view. 
 5. I added a margin top to the about section to improve visual impact.
-6. Finally I added a margin left and right on the contact page at mobile view.
+6. I added a margin left and right on the contact page at mobile view to give the contact form some space.
+7. I changed the bootstrap class for the navbar so that the span title text would only appear on large screens, and would not be visible on medium screen sizes. This fixed the visual clutter issue.
 
 ## Image credits
 
