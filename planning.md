@@ -20,7 +20,7 @@ We want a functional, attractive, easy to navigate website that makes the user w
 
 **What does the user want when they visit the website?**
 
-- To be able to understand immediately what product ranges are on offer in the shop
+- To be able to understand immediately what product ranges are on offer in the shop.
 - Ease of navigation, to find the information that they want quickly.
 - To find contact information such as phone numbers and addresses easily on the website.
 
@@ -45,72 +45,71 @@ We want a functional, attractive, easy to navigate website that makes the user w
 **Homepage**
 
 - Navbar/header
-- Carousel with sliding product images
-- Brief about us text with telephone number
-- 3 x cards (food, hair, beauty) with links to 3 pages
-- Footer with contact information and social media icons
+- Carousel with sliding product images.
+- Brief about us text with telephone number.
+- 3 x cards (food, hair, beauty) with links to 3 pages.
+- Footer with contact information and social media icons.
 
 
 **Food page**
 - Navbar/header
-- Brief info text with telephone number
-- 3 x cards (meat, vegetables, drinks ) 
-- Footer with contact information and social media icons
+- Brief info text with telephone number.
+- 3 x cards (meat, vegetables, drinks ). 
+- Footer with contact information and social media icons.
 
 **Hair page**
 - Navbar/header
-- brief  info text with telephone number
-- 3 x cards (extensions, wigs, hair products)
-- Footer with contact information and social media icons
+- brief  info text with telephone number.
+- 3 x cards (extensions, wigs, hair products).
+- Footer with contact information and social media icons.
 
 **Beauty page**
 - Navbar/header
-- Brief info text with telephone number
-- 3 x cards (different beauty categories)
-- Footer with contact information and social media icons
+- Brief info text with telephone number.
+- 3 x cards (different beauty categories).
+- Footer with contact information and social media icons.
 
 **Contact page**
-- Navbar/header
-- Brief info text with telephone number
-- Contact form
-- Footer with contact information and social media icons
+- Navbar/header.
+- Brief info text with telephone number.
+- Contact form.
+- Footer with contact information and social media icons.
 
 **Functional requirements**
 
-- The site will be public 
-- Users are able to find information on products
-- Ease of navigation around the site
-- A contact form to allow users to contact us
+- The site will be public. 
+- Users are able to find information on products.
+- Ease of navigation around the site.
+- A contact form to allow users to contact us.
   
 **Content Requirements**
 
-- Home page with contact and product information 
-- Cards listing available product categories on home page with links to respective pages 
+- Home page with contact and product information. 
+- Cards listing available product categories on home page with links to respective pages. 
 - Contact details such as telephone, address, email and contact form.
 ## Structure
 **Interaction Design**
 - Colour scheme, font and layout very similar on all pages.
-- All pages iiwll have navbar/header at top and footer in the bottom.
-- Call to action button on jumbotron style section at top of home page.
+- All pages will have navbar/header at top and footer in the bottom.
+- Carousel slider with product images on the home page.
 - Traditional top bar navigation with burger navigation menu on mobile and small screens.
 - Link to respective product categories on three cards on the homepage.
 - Contact details in footer also with social media links.
   
 **Information Architecture**
-- Simple 5 page structure with links available on all pages for ease of navigation
+- Simple 5 page structure with links available on all pages for ease of navigation.
 - Card style layout on homepage and all product pages for visual appeal.
-
 
 ## Skeleton
 **Navigation design**
-- Navigation menu at top with burger menu for small screens
-- Links arranged in importance across nav bar from left to right
+- Navigation menu at top with burger menu for small screens.
+- Links arranged in importance across nav bar from left to right.
   
 **Interface design**
-- Call to action link under nav at top of home page
-- Cards lisitng products with buttons linking to product pages
-- Social media links and address info in footer
-- Contact form for customer questions
+- Call to action link under nav at top of home page.
+- Cards lisitng products with buttons linking to product pages.
+- Social media links and address info in footer.
+- Contact form for customer questions.
 
 ## Surface
    
@@ -118,4 +117,4 @@ We want a functional, attractive, easy to navigate website that makes the user w
 - One sans-serif font across the whole site, with attractive Exo 2 modern font.
 - Muted white background with dark grey text for optimum readability.
 - Wide carousel slider with product images on home page.
-- Identical header/navbar and footer on all pages
+- Identical header/navbar and footer on all pages.
