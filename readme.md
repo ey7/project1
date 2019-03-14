@@ -1,7 +1,7 @@
 # Code Institute Milestone 1 project
 
 ## Victoire Market
-Build a website for the Code Institute User Centric module. I have chosen to build a website for a retail shop in Cork, Ireland. The link for the website: [Victore Market](https://www.victoiremarket.com/).  
+Build a website for the Code Institute User Centric module. I have chosen to build a website for a retail shop in Cork, Ireland. The link for the website: [Victoire Market](https://www.victoiremarket.com/).  
 
  ## Design Planning
 
@@ -82,7 +82,7 @@ The website consists of five pages, including a homepage, three product pages an
 5. I added a margin top to the about section to improve visual impact.
 6. I added a margin left and right on the contact page at mobile view to give the contact form some space
 7. I changed the bootstrap class for the navbar so that the span title text would only appear on large screens, and would not be visible on medium screen sizes. This fixed the visual clutter issue.
-8. I added code that was modified from a [css codepen](https://codepen.io/cbracco/pen/zekgx) to push the footer down on the contact page for Ipad potrait screen size.
+8. I added code that was modified from a [css codepen](https://codepen.io/cbracco/pen/zekgx) to push the footer down on the contact page for Ipad portrait screen size.
 9. I added a favicon to all the web pages.
 
 ## Image credits
