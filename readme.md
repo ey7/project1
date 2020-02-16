@@ -1,4 +1,4 @@
-# Code Institute Milestone 1 project
+# Victoire Market - A foodshop website
 <hr>
 <img src="images/victoireMarketResponsive.png" alt="responsive design viewports" style="max-width:100%;">
 
