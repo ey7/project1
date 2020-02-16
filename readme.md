@@ -1,6 +1,7 @@
 # Code Institute Milestone 1 project
 
 ## Victoire Market
+This project is the first milestone project for the Code Institute Full Stack Software Development Diploma.
 Build a website for the Code Institute User Centric module. I have chosen to build a website for a retail shop in Cork, Ireland. The link for the website: [Victoire Market](https://www.victoiremarket.com/).  
 
  ## Design Planning
