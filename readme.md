@@ -1,4 +1,6 @@
 # Code Institute Milestone 1 project
+<hr>
+<img src="images/victoireMarketResponsive.png" alt="responsive design viewports" style="max-width:100%;">
 
 ## Victoire Market
 This project is the first milestone project for the Code Institute Full Stack Software Development Diploma.
