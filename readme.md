@@ -4,7 +4,7 @@
 
 ## Victoire Market
 This project is the first milestone project for the Code Institute Full Stack Software Development Diploma.
-Build a website for the Code Institute User Centric module. I have chosen to build a website for a retail shop in Cork, Ireland. The link for the website: [Victoire Market](https://laughing-lamarr-2075d7.netlify.app/).  
+Build a website for the Code Institute User Centric module. I have chosen to build a website for a retail shop in Cork, Ireland. Website link: [Victoire Market](https://victoiremarket.netlify.app/).  
 
  ## Design Planning
 
